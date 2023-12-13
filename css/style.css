@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: #F9F2F2;
+  font-family: "Abel", sans-serif;
+  font-size: 50px;
+}
+body {
+  background-color: #596475;
+}
+header {
+  width: 100vw;
+  height: 95px;
+  background-color: #373849;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+}
+nav img{
+  height: 90px;
+  width: 125px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+a {
+  text-decoration: none;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+}
+.ditbenik h1{
+  margin-right: 900px;
+}
+li{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+b{
+  font-size: 40px;
+  
+}
+.blockmeerweten{
+  width: 350px;
+  height: 100px;
+  background-color: #373849;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul .tekststuk{
+  display: flex;
+  flex-direction: column;
+}
+#imgme{
+  margin-left: 100px;
+}
+footer {
+  width: 100vw;
+  height: 115px;
+  background-color: #373849;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  position: fixed;
+  bottom: 0;
+}

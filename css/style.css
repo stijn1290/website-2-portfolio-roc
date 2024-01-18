@@ -8,6 +8,36 @@
 body {
   background-color: #596475;
 }
+.background1{
+  background-image: url(../img/image\ 9.png);
+  opacity: 0.1;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -9;
+}
+.background2{
+  background-image: url(../img/image\ 5.png);
+  opacity: 0.1;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -9;
+}
+.background3{
+  background-image: url(../img/image\ 3.png);
+  opacity: 0.1;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -9;
+}
 header {
   width: 100vw;
   height: 95px;
@@ -212,7 +242,7 @@ p {
   gap: 500px;
   margin-top: 10px;
 }
-.mastermindhead{
+.projectshead{
   height: 86px;
   width: 237px;
   background-color: #373849;
@@ -222,22 +252,33 @@ p {
   justify-content: center;
   align-items: center;
 }
-.mastermindhead h1{
+.projectshead h1{
   font-size: 30px;
 }
-.mastermindmain{
+.projectsmain{
   display: flex;
   flex-direction: column;
+  gap: 50px;
   align-items: center;
 }
-.textmastermindblock{
+.textprojectsblock{
   height: 364px;
   width: 756px;
   background-color: #373849;
   border-radius: 10px;
 }
-.textmastermindblock p{
+.textprojectsblock p{
   font-size: 27px;
   color: white;
   padding: 10px;
+}
+.githubblock{
+  height: 71px;
+  border-radius: 10px;
+  width: 279px;
+  background-color: #373849;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
 }

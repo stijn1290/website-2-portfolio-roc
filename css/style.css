@@ -124,32 +124,33 @@ footer {
 }
 .blockssection {
   display: flex;
-  flex-direction: row;
-  gap: 100px;
-  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
   margin-top: 30px;
+}
+#stylingblocks{
+  align-items: center;
 }
 .blockssection h1 {
   color: black;
   font-size: 30px;
+}
+#rondeimage{
+  border-radius: 200px;
 }
 p {
   color: black;
   font-size: 20px;
 }
 .blocksecondpage {
-  width: 327px;
-  height: 350px;
+  width: 700px;
+  height: 250px;
   background-color: #d9d9d9;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.blocksecondpage img {
-  height: 200px;
-  width: 200px;
-}
-
 .contact2 {
   display: flex;
   flex-direction: row;

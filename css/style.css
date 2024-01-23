@@ -1,12 +1,42 @@
 * {
   padding: 0px;
   margin: 0px;
-  color: #F9F2F2;
-  font-family: "Abel", sans-serif;
-  font-size: 50px;
+  color: #f9f2f2;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 40px;
 }
 body {
   background-color:#596475;
+}
+.background1{
+  background-image: url(../img/image\ 9.png);
+  opacity: 0.1;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -9;
+}
+.background2{
+  background-image: url(../img/image\ 5.png);
+  opacity: 0.1;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -9;
+}
+.background3{
+  background-image: url(../img/image\ 3.png);
+  opacity: 0.1;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -9;
 }
 header {
   width: 100vw;
@@ -20,21 +50,20 @@ nav {
   align-items: center;
   margin-right: 30px;
 }
-nav img{
-  height: 90px;
+nav img {
+  height: 94px;
   width: 125px;
-  margin-left: 5px;
-  margin-top: 2px;
 }
 a {
   text-decoration: none;
 }
-.ditbenik{
+.ditbenik {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 15px;
+  margin-bottom: 54px;
 }
 .ditbenik h1{
   opacity: 100;
@@ -48,11 +77,10 @@ li{
   margin-bottom: 20px;
   opacity: 100;
 }
-b{
-  font-size: 40px;
-  
+b {
+  font-size: 20px;
 }
-.blockmeerweten{
+.blockmeerweten {
   width: 350px;
   height: 100px;
   background-color: #373849;
@@ -61,11 +89,11 @@ b{
   justify-content: center;
   align-items: center;
 }
-ul .tekststuk{
+ul .tekststuk {
   display: flex;
   flex-direction: column;
 }
-#imgme{
+#imgme {
   margin-left: 100px;
 }
 footer {
@@ -77,76 +105,181 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 70px;
-  position: fixed;
-  bottom: 0;
 }
 @media screen and (max-width: 600px) {
- *{
-  font-size: 20px;
- }
-  nav{
+  * {
+    font-size: 20px;
+  }
+  nav {
     flex-direction: row;
     gap: 30px;
   }
-  header{
+  header {
     display: flex;
     flex-direction: row;
-  } 
+  }
   header img {
     flex-direction: row;
   }
- 
 }
-.blockssection{
+.blockssection {
   display: flex;
-  flex-direction: row;
-  gap: 100px;
-  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
   margin-top: 30px;
 }
-.blockssection h1{
+#stylingblocks{
+  align-items: center;
+}
+.blockssection h1 {
   color: black;
   font-size: 30px;
 }
-p{
+#rondeimage{
+  border-radius: 200px;
+}
+p {
   color: black;
   font-size: 20px;
 }
-.blocksecondpage{
-  width: 327px;
-  height: 350px;
-  background-color: #D9D9D9;
+.blocksecondpage {
+  width: 700px;
+  height: 250px;
+  background-color: #d9d9d9;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.blocksecondpage img{
-  height: 250px;
-  width: 250px;
-}
-
-.contact2{
+.contact2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 30px;
 }
-.blockcontact{
+.blockcontact {
   width: 130px;
   height: 45px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.contact2 a{
+.contact2 {
+  margin-bottom: 35px;
+}
+.contact2 a {
   color: black;
   font-size: 30px;
 }
-.blocksecondpage li{
-  font-size: 36px;
+.blocksecondpage li {
+  font-size: 25px;
   text-align: start;
   color: black;
+}
+.projectrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 54px;
+  gap: 100px;
+}
+.projectrow a {
+  font-size: 30px;
+  color: black;
+}
+.projectblock {
+  width: 391px;
+  height: 334px;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projectblock h1 {
+  color: black;
+  font-size: 20px;
+}
+#derdeelement {
+  gap: 100px;
+}
+.contactrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 200px;
+  margin-bottom: 38px;
+}
+.boxinput input {
+  color: black;
+  border-color: black;
+  border-radius: 10px;
+}
+.mail {
+  flex-direction: row;
+  gap: 20px;
+}
+.verstuurbox {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #373849;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.contactinformatie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headings ul{
+  gap: 500px;
+  margin-top: 10px;
+}
+.projectshead{
+  height: 86px;
+  width: 237px;
+  background-color: #373849;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.projectshead h1{
+  font-size: 30px;
+}
+.projectsmain{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.textprojectsblock{
+  height: 364px;
+  width: 756px;
+  background-color: #373849;
+  border-radius: 10px;
+}
+.textprojectsblock p{
+  font-size: 27px;
+  color: white;
+  padding: 10px;
+}
+.githubblock{
+  height: 71px;
+  border-radius: 10px;
+  width: 279px;
+  background-color: #373849;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
 }
